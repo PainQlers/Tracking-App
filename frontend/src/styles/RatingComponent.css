@@ -1,0 +1,41 @@
+.rating-component {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stars {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.star {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #ddd;
+  transition: all 0.2s;
+  padding: 0;
+  line-height: 1;
+}
+
+.star.active {
+  color: #ffc107;
+  transform: scale(1.1);
+}
+
+.star.voted {
+  cursor: not-allowed;
+}
+
+.star:hover:not(.voted) {
+  color: #ffc107;
+  transform: scale(1.15);
+}
+
+.voted-text {
+  font-size: 0.85rem;
+  color: #666;
+  font-weight: 500;
+}
