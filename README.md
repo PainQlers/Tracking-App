@@ -2,6 +2,16 @@
 
 A full-stack tracking application built with Node.js and React. This application allows users to track activities, view statistics through charts, and manage their data with authentication.
 
+## 🧪 Mock Data
+
+This project currently uses **mock data** for development and demonstration purposes.
+
+- All tracking, chart, and statistics data are stored in in-memory / local mock files
+- No real database is connected yet
+- Data will be reset when the backend server restarts
+
+The mock data can be found in: backend/data/
+
 ## 🎯 Features
 
 - **Authentication System** - User login and registration with JWT-based authentication
@@ -162,4 +172,5 @@ Punsakorn Aroonchote
 ## 📧 Contact
 
 For support, email support@example.com or open an issue in the repository.
+
 
